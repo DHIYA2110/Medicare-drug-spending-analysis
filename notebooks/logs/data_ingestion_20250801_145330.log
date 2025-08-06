@@ -1,0 +1,7 @@
+2025-08-01 14:53:30,108 - INFO - Loading dataset: ../data/raw/medicare_drug_spending.csv
+2025-08-01 14:54:41,508 - INFO - Loading dataset: C:/Users/pro/Downloads/medicare-drug-spending-analysis/data/raw/medicare_drug_spending.csv
+2025-08-01 14:55:59,149 - INFO - Loading dataset: C:/Users/pro/Downloads/medicare-drug-spending-analysis/data/raw/medicare_partD_drug_spending.csv
+2025-08-01 15:03:51,727 - INFO - Logger initialized for data ingestion.
+2025-08-01 15:09:23,436 - ERROR - File not found: C:\Users\pro\Downloads\medicare-drug-spending-analysis\data\raw\medicare_partD_drug_spending.csv
+2025-08-01 15:09:38,106 - ERROR - No such comm target registered: jupyter.widget.control
+2025-08-01 15:09:38,110 - WARNING - No such comm: 6bd1993a-255b-49b9-998e-430f3dfbabe1

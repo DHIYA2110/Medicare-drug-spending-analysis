@@ -1,0 +1,374 @@
+2025-08-01 23:04:58,866 - INFO - Loaded processed dataset from C:\Users\pro\Downloads\medicare-drug-spending-analysis\data\processed\medicare_drug_spending_clean.csv with shape (14309, 46)
+2025-08-01 23:05:04,792 - INFO - Dataset profiling completed:
+                                Data Type  Missing %  Unique Values
+Brnd_Name                          object   0.000000           3474
+Gnrc_Name                          object   0.000000           1938
+Tot_Mftr                            int64   0.000000             36
+Mftr_Name                          object   0.000000            962
+Tot_Spndng_2019                   float64  29.387099           8120
+Tot_Dsg_Unts_2019                 float64  29.387099           8032
+Tot_Clms_2019                     float64  29.387099           6494
+Tot_Benes_2019                    float64  29.995108           5760
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2019   float64  29.387099           8120
+Avg_Spnd_Per_Clm_2019             float64  29.387099           8120
+Avg_Spnd_Per_Bene_2019            float64  30.742889           8163
+Outlier_Flag_2019                 float64  29.401076              2
+Tot_Spndng_2020                   float64  22.768887           8917
+Tot_Dsg_Unts_2020                 float64  22.768887           8781
+Tot_Clms_2020                     float64  22.768887           6867
+Tot_Benes_2020                    float64  24.005870           5952
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2020   float64  22.768887           8919
+Avg_Spnd_Per_Clm_2020             float64  22.768887           8919
+Avg_Spnd_Per_Bene_2020            float64  24.585925           8868
+Outlier_Flag_2020                 float64  22.796841              2
+Tot_Spndng_2021                   float64  15.920050           9778
+Tot_Dsg_Unts_2021                 float64  15.920050           9579
+Tot_Clms_2021                     float64  15.920050           7209
+Tot_Benes_2021                    float64  18.100496           6187
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2021   float64  15.920050           9779
+Avg_Spnd_Per_Clm_2021             float64  15.920050           9779
+Avg_Spnd_Per_Bene_2021            float64  18.254246           9675
+Outlier_Flag_2021                 float64  15.948005              2
+Tot_Spndng_2022                   float64   9.266895          10641
+Tot_Dsg_Unts_2022                 float64   9.266895          10333
+Tot_Clms_2022                     float64   9.266895           7516
+Tot_Benes_2022                    float64  12.090293           6380
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2022   float64   9.266895          10644
+Avg_Spnd_Per_Clm_2022             float64   9.266895          10644
+Avg_Spnd_Per_Bene_2022            float64  12.125236          10424
+Outlier_Flag_2022                 float64   9.329792              2
+Tot_Spndng_2023                   float64   0.000000          11834
+Tot_Dsg_Unts_2023                 float64   0.000000          11271
+Tot_Clms_2023                       int64   0.000000           7733
+Tot_Benes_2023                    float64   5.325320           6594
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2023   float64   0.000000          11836
+Avg_Spnd_Per_Clm_2023             float64   0.000000          11836
+Avg_Spnd_Per_Bene_2023            float64   5.325320          11262
+Outlier_Flag_2023                 float64   0.090852              2
+Chg_Avg_Spnd_Per_Dsg_Unt_22_23    float64   9.266895          10703
+CAGR_Avg_Spnd_Per_Dsg_Unt_19_23   float64   8.113775          10835
+2025-08-01 23:05:06,110 - INFO - Imputed missing values in Tot_Spndng_2019 with median: 1467647.6800000002
+2025-08-01 23:05:06,111 - INFO - Imputed missing values in Tot_Dsg_Unts_2019 with median: 362319.875
+2025-08-01 23:05:06,112 - INFO - Imputed missing values in Tot_Clms_2019 with median: 7167.0
+2025-08-01 23:05:06,113 - INFO - Imputed missing values in Tot_Benes_2019 with median: 2473.0
+2025-08-01 23:05:06,114 - INFO - Imputed missing values in Avg_Spnd_Per_Dsg_Unt_Wghtd_2019 with median: 1.9731845515000002
+2025-08-01 23:05:06,115 - INFO - Imputed missing values in Avg_Spnd_Per_Clm_2019 with median: 103.6380657
+2025-08-01 23:05:06,116 - INFO - Imputed missing values in Avg_Spnd_Per_Bene_2019 with median: 257.5315611
+2025-08-01 23:05:06,117 - INFO - Imputed missing values in Outlier_Flag_2019 with median: 0.0
+2025-08-01 23:05:06,118 - INFO - Imputed missing values in Tot_Spndng_2020 with median: 1312670.35
+2025-08-01 23:05:06,119 - INFO - Imputed missing values in Tot_Dsg_Unts_2020 with median: 306657.0
+2025-08-01 23:05:06,120 - INFO - Imputed missing values in Tot_Clms_2020 with median: 5864.0
+2025-08-01 23:05:06,121 - INFO - Imputed missing values in Tot_Benes_2020 with median: 2065.5
+2025-08-01 23:05:06,121 - INFO - Imputed missing values in Avg_Spnd_Per_Dsg_Unt_Wghtd_2020 with median: 2.054265301
+2025-08-01 23:05:06,122 - INFO - Imputed missing values in Avg_Spnd_Per_Clm_2020 with median: 110.6245765
+2025-08-01 23:05:06,123 - INFO - Imputed missing values in Avg_Spnd_Per_Bene_2020 with median: 283.2256
+2025-08-01 23:05:06,123 - INFO - Imputed missing values in Outlier_Flag_2020 with median: 0.0
+2025-08-01 23:05:06,125 - INFO - Imputed missing values in Tot_Spndng_2021 with median: 1140251.52
+2025-08-01 23:05:06,127 - INFO - Imputed missing values in Tot_Dsg_Unts_2021 with median: 251918.0
+2025-08-01 23:05:06,128 - INFO - Imputed missing values in Tot_Clms_2021 with median: 4719.0
+2025-08-01 23:05:06,128 - INFO - Imputed missing values in Tot_Benes_2021 with median: 1757.0
+2025-08-01 23:05:06,129 - INFO - Imputed missing values in Avg_Spnd_Per_Dsg_Unt_Wghtd_2021 with median: 2.067207152
+2025-08-01 23:05:06,130 - INFO - Imputed missing values in Avg_Spnd_Per_Clm_2021 with median: 111.5126886
+2025-08-01 23:05:06,130 - INFO - Imputed missing values in Avg_Spnd_Per_Bene_2021 with median: 285.6825333
+2025-08-01 23:05:06,131 - INFO - Imputed missing values in Outlier_Flag_2021 with median: 0.0
+2025-08-01 23:05:06,131 - INFO - Imputed missing values in Tot_Spndng_2022 with median: 1030143.94
+2025-08-01 23:05:06,132 - INFO - Imputed missing values in Tot_Dsg_Unts_2022 with median: 210455.0
+2025-08-01 23:05:06,133 - INFO - Imputed missing values in Tot_Clms_2022 with median: 4039.0
+2025-08-01 23:05:06,133 - INFO - Imputed missing values in Tot_Benes_2022 with median: 1566.0
+2025-08-01 23:05:06,134 - INFO - Imputed missing values in Avg_Spnd_Per_Dsg_Unt_Wghtd_2022 with median: 2.228294388
+2025-08-01 23:05:06,135 - INFO - Imputed missing values in Avg_Spnd_Per_Clm_2022 with median: 116.4894737
+2025-08-01 23:05:06,135 - INFO - Imputed missing values in Avg_Spnd_Per_Bene_2022 with median: 289.8274169
+2025-08-01 23:05:06,136 - INFO - Imputed missing values in Outlier_Flag_2022 with median: 0.0
+2025-08-01 23:05:06,137 - INFO - Imputed missing values in Tot_Benes_2023 with median: 1262.0
+2025-08-01 23:05:06,138 - INFO - Imputed missing values in Avg_Spnd_Per_Bene_2023 with median: 272.1822182
+2025-08-01 23:05:06,139 - INFO - Imputed missing values in Outlier_Flag_2023 with median: 0.0
+2025-08-01 23:05:06,139 - INFO - Imputed missing values in Chg_Avg_Spnd_Per_Dsg_Unt_22_23 with median: 0.000832964
+2025-08-01 23:05:06,140 - INFO - Imputed missing values in CAGR_Avg_Spnd_Per_Dsg_Unt_19_23 with median: 0.0018711535
+2025-08-01 23:05:06,147 - INFO - Completed missing value imputation for numeric columns.
+2025-08-01 23:05:07,853 - INFO - Dataset profiling completed:
+                                Data Type  Missing %  Unique Values
+Brnd_Name                          object        0.0           3474
+Gnrc_Name                          object        0.0           1938
+Tot_Mftr                            int64        0.0             36
+Mftr_Name                          object        0.0            962
+Tot_Spndng_2019                   float64        0.0           8121
+Tot_Dsg_Unts_2019                 float64        0.0           8033
+Tot_Clms_2019                     float64        0.0           6495
+Tot_Benes_2019                    float64        0.0           5760
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2019   float64        0.0           8121
+Avg_Spnd_Per_Clm_2019             float64        0.0           8121
+Avg_Spnd_Per_Bene_2019            float64        0.0           8164
+Outlier_Flag_2019                 float64        0.0              2
+Tot_Spndng_2020                   float64        0.0           8917
+Tot_Dsg_Unts_2020                 float64        0.0           8781
+Tot_Clms_2020                     float64        0.0           6867
+Tot_Benes_2020                    float64        0.0           5953
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2020   float64        0.0           8919
+Avg_Spnd_Per_Clm_2020             float64        0.0           8919
+Avg_Spnd_Per_Bene_2020            float64        0.0           8868
+Outlier_Flag_2020                 float64        0.0              2
+Tot_Spndng_2021                   float64        0.0           9778
+Tot_Dsg_Unts_2021                 float64        0.0           9579
+Tot_Clms_2021                     float64        0.0           7209
+Tot_Benes_2021                    float64        0.0           6187
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2021   float64        0.0           9779
+Avg_Spnd_Per_Clm_2021             float64        0.0           9779
+Avg_Spnd_Per_Bene_2021            float64        0.0           9675
+Outlier_Flag_2021                 float64        0.0              2
+Tot_Spndng_2022                   float64        0.0          10641
+Tot_Dsg_Unts_2022                 float64        0.0          10333
+Tot_Clms_2022                     float64        0.0           7516
+Tot_Benes_2022                    float64        0.0           6380
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2022   float64        0.0          10644
+Avg_Spnd_Per_Clm_2022             float64        0.0          10644
+Avg_Spnd_Per_Bene_2022            float64        0.0          10425
+Outlier_Flag_2022                 float64        0.0              2
+Tot_Spndng_2023                   float64        0.0          11834
+Tot_Dsg_Unts_2023                 float64        0.0          11271
+Tot_Clms_2023                       int64        0.0           7733
+Tot_Benes_2023                    float64        0.0           6594
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2023   float64        0.0          11836
+Avg_Spnd_Per_Clm_2023             float64        0.0          11836
+Avg_Spnd_Per_Bene_2023            float64        0.0          11262
+Outlier_Flag_2023                 float64        0.0              2
+Chg_Avg_Spnd_Per_Dsg_Unt_22_23    float64        0.0          10703
+CAGR_Avg_Spnd_Per_Dsg_Unt_19_23   float64        0.0          10836
+2025-08-01 23:05:15,855 - INFO - Validating and converting data types...
+2025-08-01 23:05:15,898 - INFO - Updated data types: 
+Brnd_Name                           object
+Gnrc_Name                           object
+Tot_Mftr                             int64
+Mftr_Name                           object
+Tot_Spndng_2019                    float64
+Tot_Dsg_Unts_2019                  float64
+Tot_Clms_2019                      float64
+Tot_Benes_2019                     float64
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2019    float64
+Avg_Spnd_Per_Clm_2019              float64
+Avg_Spnd_Per_Bene_2019             float64
+Outlier_Flag_2019                     bool
+Tot_Spndng_2020                    float64
+Tot_Dsg_Unts_2020                  float64
+Tot_Clms_2020                      float64
+Tot_Benes_2020                     float64
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2020    float64
+Avg_Spnd_Per_Clm_2020              float64
+Avg_Spnd_Per_Bene_2020             float64
+Outlier_Flag_2020                     bool
+Tot_Spndng_2021                    float64
+Tot_Dsg_Unts_2021                  float64
+Tot_Clms_2021                      float64
+Tot_Benes_2021                     float64
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2021    float64
+Avg_Spnd_Per_Clm_2021              float64
+Avg_Spnd_Per_Bene_2021             float64
+Outlier_Flag_2021                     bool
+Tot_Spndng_2022                    float64
+Tot_Dsg_Unts_2022                  float64
+Tot_Clms_2022                      float64
+Tot_Benes_2022                     float64
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2022    float64
+Avg_Spnd_Per_Clm_2022              float64
+Avg_Spnd_Per_Bene_2022             float64
+Outlier_Flag_2022                     bool
+Tot_Spndng_2023                    float64
+Tot_Dsg_Unts_2023                  float64
+Tot_Clms_2023                        int64
+Tot_Benes_2023                     float64
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2023    float64
+Avg_Spnd_Per_Clm_2023              float64
+Avg_Spnd_Per_Bene_2023             float64
+Outlier_Flag_2023                     bool
+Chg_Avg_Spnd_Per_Dsg_Unt_22_23     float64
+CAGR_Avg_Spnd_Per_Dsg_Unt_19_23    float64
+dtype: object
+2025-08-01 23:05:20,103 - INFO - Outliers capped using IQR method for spending & claims columns.
+2025-08-01 23:13:42,800 - INFO - Outliers capped using IQR method for spending & claims columns.
+2025-08-01 23:23:18,120 - INFO - Outliers capped using 1.0×IQR.
+2025-08-01 23:25:26,881 - INFO - Saved cleaned & capped dataset to C:\Users\pro\Downloads\medicare-drug-spending-analysis\data\processed\medicare_drug_spending_capped.csv
+2025-08-01 23:58:34,188 - INFO - Loaded processed dataset from C:\Users\pro\Downloads\medicare-drug-spending-analysis\data\processed\medicare_drug_spending_clean.csv with shape (14309, 46)
+2025-08-01 23:58:34,799 - INFO - Dataset profiling completed:
+                                Data Type  Missing %  Unique Values
+Brnd_Name                          object   0.000000           3474
+Gnrc_Name                          object   0.000000           1938
+Tot_Mftr                            int64   0.000000             36
+Mftr_Name                          object   0.000000            962
+Tot_Spndng_2019                   float64  29.387099           8120
+Tot_Dsg_Unts_2019                 float64  29.387099           8032
+Tot_Clms_2019                     float64  29.387099           6494
+Tot_Benes_2019                    float64  29.995108           5760
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2019   float64  29.387099           8120
+Avg_Spnd_Per_Clm_2019             float64  29.387099           8120
+Avg_Spnd_Per_Bene_2019            float64  30.742889           8163
+Outlier_Flag_2019                 float64  29.401076              2
+Tot_Spndng_2020                   float64  22.768887           8917
+Tot_Dsg_Unts_2020                 float64  22.768887           8781
+Tot_Clms_2020                     float64  22.768887           6867
+Tot_Benes_2020                    float64  24.005870           5952
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2020   float64  22.768887           8919
+Avg_Spnd_Per_Clm_2020             float64  22.768887           8919
+Avg_Spnd_Per_Bene_2020            float64  24.585925           8868
+Outlier_Flag_2020                 float64  22.796841              2
+Tot_Spndng_2021                   float64  15.920050           9778
+Tot_Dsg_Unts_2021                 float64  15.920050           9579
+Tot_Clms_2021                     float64  15.920050           7209
+Tot_Benes_2021                    float64  18.100496           6187
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2021   float64  15.920050           9779
+Avg_Spnd_Per_Clm_2021             float64  15.920050           9779
+Avg_Spnd_Per_Bene_2021            float64  18.254246           9675
+Outlier_Flag_2021                 float64  15.948005              2
+Tot_Spndng_2022                   float64   9.266895          10641
+Tot_Dsg_Unts_2022                 float64   9.266895          10333
+Tot_Clms_2022                     float64   9.266895           7516
+Tot_Benes_2022                    float64  12.090293           6380
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2022   float64   9.266895          10644
+Avg_Spnd_Per_Clm_2022             float64   9.266895          10644
+Avg_Spnd_Per_Bene_2022            float64  12.125236          10424
+Outlier_Flag_2022                 float64   9.329792              2
+Tot_Spndng_2023                   float64   0.000000          11834
+Tot_Dsg_Unts_2023                 float64   0.000000          11271
+Tot_Clms_2023                       int64   0.000000           7733
+Tot_Benes_2023                    float64   5.325320           6594
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2023   float64   0.000000          11836
+Avg_Spnd_Per_Clm_2023             float64   0.000000          11836
+Avg_Spnd_Per_Bene_2023            float64   5.325320          11262
+Outlier_Flag_2023                 float64   0.090852              2
+Chg_Avg_Spnd_Per_Dsg_Unt_22_23    float64   9.266895          10703
+CAGR_Avg_Spnd_Per_Dsg_Unt_19_23   float64   8.113775          10835
+2025-08-01 23:58:35,422 - INFO - Imputed missing values in Tot_Spndng_2019 with median: 1467647.6800000002
+2025-08-01 23:58:35,423 - INFO - Imputed missing values in Tot_Dsg_Unts_2019 with median: 362319.875
+2025-08-01 23:58:35,424 - INFO - Imputed missing values in Tot_Clms_2019 with median: 7167.0
+2025-08-01 23:58:35,424 - INFO - Imputed missing values in Tot_Benes_2019 with median: 2473.0
+2025-08-01 23:58:35,426 - INFO - Imputed missing values in Avg_Spnd_Per_Dsg_Unt_Wghtd_2019 with median: 1.9731845515000002
+2025-08-01 23:58:35,426 - INFO - Imputed missing values in Avg_Spnd_Per_Clm_2019 with median: 103.6380657
+2025-08-01 23:58:35,427 - INFO - Imputed missing values in Avg_Spnd_Per_Bene_2019 with median: 257.5315611
+2025-08-01 23:58:35,428 - INFO - Imputed missing values in Outlier_Flag_2019 with median: 0.0
+2025-08-01 23:58:35,429 - INFO - Imputed missing values in Tot_Spndng_2020 with median: 1312670.35
+2025-08-01 23:58:35,429 - INFO - Imputed missing values in Tot_Dsg_Unts_2020 with median: 306657.0
+2025-08-01 23:58:35,430 - INFO - Imputed missing values in Tot_Clms_2020 with median: 5864.0
+2025-08-01 23:58:35,431 - INFO - Imputed missing values in Tot_Benes_2020 with median: 2065.5
+2025-08-01 23:58:35,431 - INFO - Imputed missing values in Avg_Spnd_Per_Dsg_Unt_Wghtd_2020 with median: 2.054265301
+2025-08-01 23:58:35,432 - INFO - Imputed missing values in Avg_Spnd_Per_Clm_2020 with median: 110.6245765
+2025-08-01 23:58:35,433 - INFO - Imputed missing values in Avg_Spnd_Per_Bene_2020 with median: 283.2256
+2025-08-01 23:58:35,433 - INFO - Imputed missing values in Outlier_Flag_2020 with median: 0.0
+2025-08-01 23:58:35,434 - INFO - Imputed missing values in Tot_Spndng_2021 with median: 1140251.52
+2025-08-01 23:58:35,435 - INFO - Imputed missing values in Tot_Dsg_Unts_2021 with median: 251918.0
+2025-08-01 23:58:35,435 - INFO - Imputed missing values in Tot_Clms_2021 with median: 4719.0
+2025-08-01 23:58:35,436 - INFO - Imputed missing values in Tot_Benes_2021 with median: 1757.0
+2025-08-01 23:58:35,437 - INFO - Imputed missing values in Avg_Spnd_Per_Dsg_Unt_Wghtd_2021 with median: 2.067207152
+2025-08-01 23:58:35,438 - INFO - Imputed missing values in Avg_Spnd_Per_Clm_2021 with median: 111.5126886
+2025-08-01 23:58:35,440 - INFO - Imputed missing values in Avg_Spnd_Per_Bene_2021 with median: 285.6825333
+2025-08-01 23:58:35,442 - INFO - Imputed missing values in Outlier_Flag_2021 with median: 0.0
+2025-08-01 23:58:35,443 - INFO - Imputed missing values in Tot_Spndng_2022 with median: 1030143.94
+2025-08-01 23:58:35,445 - INFO - Imputed missing values in Tot_Dsg_Unts_2022 with median: 210455.0
+2025-08-01 23:58:35,445 - INFO - Imputed missing values in Tot_Clms_2022 with median: 4039.0
+2025-08-01 23:58:35,446 - INFO - Imputed missing values in Tot_Benes_2022 with median: 1566.0
+2025-08-01 23:58:35,447 - INFO - Imputed missing values in Avg_Spnd_Per_Dsg_Unt_Wghtd_2022 with median: 2.228294388
+2025-08-01 23:58:35,447 - INFO - Imputed missing values in Avg_Spnd_Per_Clm_2022 with median: 116.4894737
+2025-08-01 23:58:35,448 - INFO - Imputed missing values in Avg_Spnd_Per_Bene_2022 with median: 289.8274169
+2025-08-01 23:58:35,449 - INFO - Imputed missing values in Outlier_Flag_2022 with median: 0.0
+2025-08-01 23:58:35,450 - INFO - Imputed missing values in Tot_Benes_2023 with median: 1262.0
+2025-08-01 23:58:35,451 - INFO - Imputed missing values in Avg_Spnd_Per_Bene_2023 with median: 272.1822182
+2025-08-01 23:58:35,452 - INFO - Imputed missing values in Outlier_Flag_2023 with median: 0.0
+2025-08-01 23:58:35,452 - INFO - Imputed missing values in Chg_Avg_Spnd_Per_Dsg_Unt_22_23 with median: 0.000832964
+2025-08-01 23:58:35,453 - INFO - Imputed missing values in CAGR_Avg_Spnd_Per_Dsg_Unt_19_23 with median: 0.0018711535
+2025-08-01 23:58:35,457 - INFO - Completed missing value imputation for numeric columns.
+2025-08-01 23:58:35,984 - INFO - Dataset profiling completed:
+                                Data Type  Missing %  Unique Values
+Brnd_Name                          object        0.0           3474
+Gnrc_Name                          object        0.0           1938
+Tot_Mftr                            int64        0.0             36
+Mftr_Name                          object        0.0            962
+Tot_Spndng_2019                   float64        0.0           8121
+Tot_Dsg_Unts_2019                 float64        0.0           8033
+Tot_Clms_2019                     float64        0.0           6495
+Tot_Benes_2019                    float64        0.0           5760
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2019   float64        0.0           8121
+Avg_Spnd_Per_Clm_2019             float64        0.0           8121
+Avg_Spnd_Per_Bene_2019            float64        0.0           8164
+Outlier_Flag_2019                 float64        0.0              2
+Tot_Spndng_2020                   float64        0.0           8917
+Tot_Dsg_Unts_2020                 float64        0.0           8781
+Tot_Clms_2020                     float64        0.0           6867
+Tot_Benes_2020                    float64        0.0           5953
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2020   float64        0.0           8919
+Avg_Spnd_Per_Clm_2020             float64        0.0           8919
+Avg_Spnd_Per_Bene_2020            float64        0.0           8868
+Outlier_Flag_2020                 float64        0.0              2
+Tot_Spndng_2021                   float64        0.0           9778
+Tot_Dsg_Unts_2021                 float64        0.0           9579
+Tot_Clms_2021                     float64        0.0           7209
+Tot_Benes_2021                    float64        0.0           6187
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2021   float64        0.0           9779
+Avg_Spnd_Per_Clm_2021             float64        0.0           9779
+Avg_Spnd_Per_Bene_2021            float64        0.0           9675
+Outlier_Flag_2021                 float64        0.0              2
+Tot_Spndng_2022                   float64        0.0          10641
+Tot_Dsg_Unts_2022                 float64        0.0          10333
+Tot_Clms_2022                     float64        0.0           7516
+Tot_Benes_2022                    float64        0.0           6380
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2022   float64        0.0          10644
+Avg_Spnd_Per_Clm_2022             float64        0.0          10644
+Avg_Spnd_Per_Bene_2022            float64        0.0          10425
+Outlier_Flag_2022                 float64        0.0              2
+Tot_Spndng_2023                   float64        0.0          11834
+Tot_Dsg_Unts_2023                 float64        0.0          11271
+Tot_Clms_2023                       int64        0.0           7733
+Tot_Benes_2023                    float64        0.0           6594
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2023   float64        0.0          11836
+Avg_Spnd_Per_Clm_2023             float64        0.0          11836
+Avg_Spnd_Per_Bene_2023            float64        0.0          11262
+Outlier_Flag_2023                 float64        0.0              2
+Chg_Avg_Spnd_Per_Dsg_Unt_22_23    float64        0.0          10703
+CAGR_Avg_Spnd_Per_Dsg_Unt_19_23   float64        0.0          10836
+2025-08-01 23:58:36,536 - INFO - Validating and converting data types...
+2025-08-01 23:58:36,579 - INFO - Updated data types: 
+Brnd_Name                           object
+Gnrc_Name                           object
+Tot_Mftr                             int64
+Mftr_Name                           object
+Tot_Spndng_2019                    float64
+Tot_Dsg_Unts_2019                  float64
+Tot_Clms_2019                      float64
+Tot_Benes_2019                     float64
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2019    float64
+Avg_Spnd_Per_Clm_2019              float64
+Avg_Spnd_Per_Bene_2019             float64
+Outlier_Flag_2019                     bool
+Tot_Spndng_2020                    float64
+Tot_Dsg_Unts_2020                  float64
+Tot_Clms_2020                      float64
+Tot_Benes_2020                     float64
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2020    float64
+Avg_Spnd_Per_Clm_2020              float64
+Avg_Spnd_Per_Bene_2020             float64
+Outlier_Flag_2020                     bool
+Tot_Spndng_2021                    float64
+Tot_Dsg_Unts_2021                  float64
+Tot_Clms_2021                      float64
+Tot_Benes_2021                     float64
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2021    float64
+Avg_Spnd_Per_Clm_2021              float64
+Avg_Spnd_Per_Bene_2021             float64
+Outlier_Flag_2021                     bool
+Tot_Spndng_2022                    float64
+Tot_Dsg_Unts_2022                  float64
+Tot_Clms_2022                      float64
+Tot_Benes_2022                     float64
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2022    float64
+Avg_Spnd_Per_Clm_2022              float64
+Avg_Spnd_Per_Bene_2022             float64
+Outlier_Flag_2022                     bool
+Tot_Spndng_2023                    float64
+Tot_Dsg_Unts_2023                  float64
+Tot_Clms_2023                        int64
+Tot_Benes_2023                     float64
+Avg_Spnd_Per_Dsg_Unt_Wghtd_2023    float64
+Avg_Spnd_Per_Clm_2023              float64
+Avg_Spnd_Per_Bene_2023             float64
+Outlier_Flag_2023                     bool
+Chg_Avg_Spnd_Per_Dsg_Unt_22_23     float64
+CAGR_Avg_Spnd_Per_Dsg_Unt_19_23    float64
+dtype: object
+2025-08-02 00:06:52,962 - INFO - Outliers capped using 1.0×IQR.
+2025-08-02 00:06:54,763 - INFO - Saved cleaned & capped dataset to C:\Users\pro\Downloads\medicare-drug-spending-analysis\data\processed\medicare_drug_spending_capped.csv
