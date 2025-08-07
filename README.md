@@ -1,11 +1,11 @@
 
-##Medicare Drug Spending Analysis
+## Medicare Drug Spending Analysis
 
-##Project Overview
+## Project Overview
 
 This project aims to analyze trends in Medicare Part D drug spending, identify clusters of drugs based on spending behavior, and forecast future spending. The analysis uses data from 2019 to 2023 and applies data preprocessing, exploratory data analysis (EDA), clustering, time series forecasting, and principal component analysis (PCA) to gain actionable insights.
 
-##Project Structure
+## Project Structure
 
 medicare-drug-spending-analysis/
 |├── data/
@@ -34,12 +34,12 @@ medicare-drug-spending-analysis/
 - **Jupyter Notebook** for analysis
 - **Git/GitHub** for version control
 
- ##Data Ingestion
+ ## Data Ingestion
 -Loaded and reviewed dataset: 14,000+ rows.
 -Checked for nulls, duplicates, and incorrect data types.
 -Removed unnecessary entries (e.g., manufacturer = "Overall")
 
-##Data Cleaning
+## Data Cleaning
 -Aggregated spending by drug brand.
 -Replaced outliers using Winsorization to preserve trend patterns.
 -Ensured consistent formatting across all columns.
@@ -113,7 +113,7 @@ Predict Medicare drug spending for 2024–2026 using ARIMA.
 - **Some older drugs are declining**, hinting at patent expirations or better alternatives.
 - **Forecasts show an urgent need** for cost control or reimbursement reforms.
 
-##Future Improvements
+## Future Improvements
 
 Add LSTM-based deep learning forecasting.
 Integrate API for real-time Medicare data.
