@@ -6,31 +6,7 @@
 This project aims to analyze trends in Medicare Part D drug spending, identify clusters of drugs based on spending behavior, and forecast future spending. The analysis uses data from 2019 to 2023 and applies data preprocessing, exploratory data analysis (EDA), clustering, time series forecasting, and principal component analysis (PCA) to gain actionable insights.
 
 ## Project Structure
-
-medicare-drug-spending-analysis/
-
-|├── data/
-
-|   |── raw/
-# Raw dataset
-
-|   └── processed/   # Cleaned dataset
-|├── notebooks/
-
-|   |── 1_data_ingestion.ipynb
-|   |── 2_clean_spending_data.ipynb
-|   |── 3_eda.ipynb
-|   |── 4_clustering.ipynb
-|   |── 5_forecasting.ipynb
-|   └── 6_trend_analysis.ipynb
-
-|├── reports/
-
-|   └── images/             # Visualizations for README
-|├── scripts/
-|├── logs/
-└── README.md
-
+medicare-drug-spending-analysis/ |├── data/ | |── raw/ # Raw dataset | └── processed/ # Cleaned dataset |├── notebooks/ | |── 1_data_ingestion.ipynb | |── 2_clean_spending_data.ipynb | |── 3_eda.ipynb | |── 4_clustering.ipynb | |── 5_forecasting.ipynb | └── 6_trend_analysis.ipynb |├── reports/ | └── images/ # Visualizations for README |├── scripts/ |├── logs/ └── README.md ``` </pre>
 
 ##  Technologies & Tools Used
 
