@@ -116,7 +116,9 @@ Predict Medicare drug spending for 2024–2026 using ARIMA.
 ## Future Improvements
 
 -Add LSTM-based deep learning forecasting.
+
 -Integrate API for real-time Medicare data.
+
 -Use advanced feature engineering: cost per prescription.
 
 ## 🚀 How to Run the Project
