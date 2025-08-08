@@ -7,7 +7,7 @@ This project aims to analyze trends in Medicare Part D drug spending, identify c
 
 ## Project Structure
 
-<pre> ```bash medicare-drug-spending-analysis/ ├── data/ │ ├── raw/ # Original CSV files │ └── processed/ # Cleaned datasets ├── notebooks/ │ ├── 1_data_ingestion.ipynb │ ├── 2_clean_spending_data.ipynb │ ├── 3_eda.ipynb │ ├── 4_clustering.ipynb │ ├── 5_forecasting.ipynb │ └── 6_trend_analysis.ipynb ├── reports/ │ └── images/ # Result Graphs (PCA, Forecast, Clustering) ├── scripts/ ├── logs/ └── README.md ``` </pre>
+![Project Structure](reports/images/project_structure.png)
 
 ##  Technologies & Tools Used
 
